@@ -5,8 +5,29 @@
 }
 
 :root {
+  --header-purple: #250052;
+  --html-background-color: #6670c9;
 }
 
 html {
   font-size: 62.5%;
+  background-color: var(--html-background-color);
+  color: white;
+}
+
+header {
+  background-color: var(--header-purple);
+  color: white;
+  padding: 10px;
+}
+
+
+
+
+
+.results--table {
+  margin: 0 auto;
+  border: 3px solid rgb(95, 69, 117);
+  border-radius: 13px;
+  padding: 9px;
 }
